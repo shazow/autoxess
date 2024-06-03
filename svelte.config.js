@@ -22,6 +22,9 @@ export default {
 		prerender: {
 			handleHttpError: "warn",
 		},
+		paths: {
+			base: '/autoxess', // For github pages deploy
+		},
 	}
 };
 
