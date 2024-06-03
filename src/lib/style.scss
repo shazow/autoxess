@@ -1,0 +1,45 @@
+.piece {
+    width: 40px;
+    /* Adjust size as needed */
+    height: 40px;
+    margin: 5px;
+    /* Add spacing between pieces */
+    border-radius: 50%;
+    /* Make pieces circular */
+    cursor: grab;
+    /* Indicate that pieces can be dragged */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Color variations for different piece types */
+.piece.pawn {
+    background-color: lightgray;
+}
+
+.piece.rook {
+    background-color: brown;
+}
+
+.piece.knight {
+    background-color: orange;
+}
+
+.piece.bishop {
+    background-color: purple;
+}
+
+.piece.queen {
+    background-color: gold;
+}
+
+.piece.king {
+    background-color: silver;
+}
+
+/* Style for black pieces (you can create separate piece types if needed) */
+.piece.black {
+    filter: invert(100%);
+    /* Invert colors for black pieces */
+}
