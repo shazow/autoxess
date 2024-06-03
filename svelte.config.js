@@ -18,7 +18,10 @@ export default {
 			fallback: 'index.html',
 			precompress: false,
 			strict: true
-		})
+		}),
+		prerender: {
+			handleHttpError: "warn",
+		},
 	}
 };
 
